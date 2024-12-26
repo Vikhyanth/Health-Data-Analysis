@@ -47,7 +47,7 @@ plt.show()
 # Outcome Distribution
 plt.figure(figsize=(8, 5))
 sns.countplot(x='Outcome', data=df)
-plt.title('Diabetes Outcome Distribution', fontsize=16)
+plt.title('Diabetes Distribution', fontsize=16)
 plt.xlabel('Outcome (0 = No Diabetes, 1 = Diabetes)', fontsize=14)
 plt.ylabel('Count of Cases', fontsize=14)  # Updated label
 plt.grid(axis='y')
